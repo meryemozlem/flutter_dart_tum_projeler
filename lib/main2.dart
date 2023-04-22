@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-//ctrl add .
 void main() {
   runApp(const MyApp());
 }
@@ -41,8 +40,6 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Row(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          //eklenecek olan sınıf
-          Mavikare(),
           Padding(
             padding: const EdgeInsets.all(10.0),
             child: Container(
@@ -95,18 +92,6 @@ class _MyHomePageState extends State<MyHomePage> {
           )
         ],
       ),
-    );
-  }
-}
-
-class Mavikare extends StatelessWidget {
-  //build yaz ya da AI ya güven.
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: 50,
-      height: 50,
-      color: Colors.blue,
     );
   }
 }
